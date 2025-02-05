@@ -56,7 +56,7 @@ docker-compose up -d
 docker-compose logs -f
 ```
 
-### 6. Optional command shurdown docker and restart docker
+### 6. Optional command for shutdown docker and restart docker
 ```bash 
 docker-compose down
 ```
