@@ -32,6 +32,12 @@ provider_id: Your unique provider identifier
 local_db_user: Database username
 local_db_password: Database password
 local_wallet_json: Wallet JSON (either direct or via file)
+
+PROVIDER_ID = wallet Address
+wallet json = private key     
+
+Export the private key from the wallet and open it in a plain text editor such as Notepad.‍
+The private key you extract is in a JSON file format. Load it into the .env file as shown in the example by using the nano .env command, and make sure it matches the structure provided.
 ``` 
 ### 4. Pull dan run 
 ```bash
